@@ -51,7 +51,7 @@ form.search__box {
     font-weight: bold;
 }
 
-.header__tool > div.fa-solid {
+.header__tool .header__tool-link {
     margin: 0 20px;
     border-radius: 50%;
     border: 1px solid #e1e1e1;
@@ -60,21 +60,77 @@ form.search__box {
     font-size: 14px;
 }
 
-.header__tool > div.fa-solid.fa-bell {
+.header__tool > .fa-solid.fa-bell {
     padding: 10px 11px;
 }   
 
-.header__tool > div.fa-solid.fa-cart-shopping {
+.header__tool > .fa-solid.fa-cart-shopping {
     padding: 10px 9px;
 }
 
-.header__tool > div.fa-solid.fa-user {
+.header__tool > .fa-solid.fa-user {
     padding: 10px 11px;
 }
 
-.header__tool > div.fa-solid:hover {
+.header__tool .header__tool-link:hover {
     color: #fff;
     cursor: pointer;
     background-color: rgb(161, 161, 161);
     border: 1px solid #fff;
+}
+
+.header__tool-notify {
+    position: relative;
+    right: 0;
+    top: 0;
+}
+
+.notify {
+    background-color: #fff;
+    position: absolute;
+    width: 500px;
+    height: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    top: 36px;
+    right: -2px;
+}
+
+.notify__header {
+    border-bottom: 1px solid #e1e1e1;
+    height: 30px;
+}
+
+.notify__name {
+    color: black;
+    font-size: 14px;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 30px;
+    padding-left: 10px;
+    color: gray;
+}
+
+.notify__container {
+    margin-top: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+.notify__img {
+    width: 40px;
+    height: 40px;
+    vertical-align: middle;
+    object-fit: contain;
+    border: 1px solid #e1e1e1;
+    margin: 0 10px;
+}
+
+.notify__info {
+    display: table-cell;
+}
+
+.notify__info-description {
+    text-align: left right;
 }
