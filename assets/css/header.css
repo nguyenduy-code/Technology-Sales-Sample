@@ -1,0 +1,80 @@
+#header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.header__logo img {
+    width: 80px;
+    vertical-align: middle;
+    transition-duration: 0.2s;
+}
+
+.header__logo img:hover {
+    scale: 1.1;
+}
+
+.header__search, .header__tool {
+    align-items: center;
+}
+
+form.search__box {
+    width: 500px;
+    height: 40px;
+    background-color: #ddd;
+    border-radius: 10px;
+    border: 2px solid #bbb;
+}
+
+.autoComplete {
+    display: flex;
+    position: relative;
+    height: 100%;
+}
+
+.search__input {
+    padding-left: 10px;
+    flex: 1;
+    height: 100%;
+    outline: none;
+    border: none;
+    border-radius: 8px 0 0 8px;
+    font-size: 13px;
+}
+
+.btn__search {
+    width: 100px;
+    border: none;
+    outline: none;
+    border-radius: 0 8px 8px 0;
+    color: gray;
+    font-weight: bold;
+}
+
+.header__tool > div.fa-solid {
+    margin: 0 20px;
+    border-radius: 50%;
+    border: 1px solid #e1e1e1;
+    padding: 10px 10px;
+    transition-duration: 0.2s;
+    font-size: 14px;
+}
+
+.header__tool > div.fa-solid.fa-bell {
+    padding: 10px 11px;
+}   
+
+.header__tool > div.fa-solid.fa-cart-shopping {
+    padding: 10px 9px;
+}
+
+.header__tool > div.fa-solid.fa-user {
+    padding: 10px 11px;
+}
+
+.header__tool > div.fa-solid:hover {
+    color: #fff;
+    cursor: pointer;
+    background-color: rgb(161, 161, 161);
+    border: 1px solid #fff;
+}

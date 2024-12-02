@@ -22,27 +22,25 @@ function navtop() {
                             </a>
                         </li>
                         <li>
-                            <a href="./tuyendung.html">
-                                <i class="fa-solid fa-handshake"></i>
-                                Tuyển Dụng
-                            </a>
-                        </li>
-                        <li>
                             <a href="./gioithieu.html">
                                 <i class="fa-solid fa-circle-info"></i>
                                 Giới Thiệu
                             </a>
                         </li>
                         <li>
-                            <a href="./baohanh.html">
-                                <i class="fa-solid fa-wrench"></i>
-                                Bảo Hành
+                            <a href="./hotro.html">
+                                <i class="fa-solid fa-circle-question"></i>
+                                Hỗ Trợ
                             </a>
                         </li>
                         <li>
-                            <a href="./lienhe.html">
-                                <i class="fa-solid fa-phone"></i>
-                                Liên Hệ
+                            <a href="">
+                                Đăng Ký
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                Đăng Nhập
                             </a>
                         </li>
                     </ul>

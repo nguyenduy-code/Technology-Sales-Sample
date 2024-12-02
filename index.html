@@ -12,9 +12,11 @@
 
         <!-- FontAwesome -->
         <link rel="stylesheet" href="./assets/data/fontawesome-free/css/all.min.css">
+        <link rel="stylesheet" href="./assets/data/themify-icons/themify-icons.css">
         
         <link rel="stylesheet" href="./assets/css/base.css">
         <link rel="stylesheet" href="./assets/css/nav__top.css">
+        <link rel="stylesheet" href="./assets/css/header.css">
 
         <!-- Js -->
         <script src="./assets/js/dungchung.js"></script>
@@ -23,7 +25,31 @@
         <div id="wrapper">
             <script>navtop()</script>
 
-            <div id="header"></div>
+            <section id="header">
+                <div class="header__logo">
+                    <a href="./index.html" class="header__logo-link">
+                        <img src="./assets/img/logo.png" alt="Trang Chủ Thế Giới Công Nghệ">
+                    </a>
+                </div>
+
+                <div class="header__search flexContain">
+                    <form action="" method="get" class="search__box">
+                        <div class="autoComplete">
+                            <input type="text" class="search__input" placeholder="Nhập từ khóa tìm kiếm...">
+                            <button type="submit" class="btn__search">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                                Tìm Kiếm
+                            </button>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="header__tool flexContain">
+                    <div class="fa-solid fa-bell"></div>
+                    <div class="fa-solid fa-cart-shopping"></div>
+                    <div class="fa-solid fa-user"></div>
+                </div>
+            </section>
 
             <div id="container"></div>
 
