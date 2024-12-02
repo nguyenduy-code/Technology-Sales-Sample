@@ -1,0 +1,69 @@
+#nav__top {
+    background-color: #f1f1f1;
+    border-bottom: 1px solid #e1e1e1;    
+}
+
+#nav__top .social__nav {
+    display: flex;
+    float: left;
+}
+
+#nav__top .social__nav a {
+    color: gray;
+    font-size: 15px;
+    line-height: 36px;
+    text-align: center;
+    width: 36px;
+    transition-duration: 0.3s;
+}
+
+#nav__top .social__nav a:hover {
+    color: white;
+}
+
+#nav__top a.fa-brands.fa-facebook-f:hover {
+    background-color: #3B5998;
+}
+
+#nav__top a.fa-brands.fa-youtube:hover {
+    background-color: #bb0000;
+}
+
+#nav__top a.fa-brands.fa-instagram:hover {
+    background-color: #E1306C;
+}
+
+#nav__top a.fa-brands.fa-tiktok:hover {
+    background-color: black;
+}
+
+.quickly__nav {
+    float: right;
+}
+
+.quickly__nav li {
+    display: inline-block;
+}
+
+.quickly__nav li a {
+    display: block;
+    color: gray;
+    transition-duration: 0.12s;
+    padding: 9px 15px;
+}
+
+.quickly__nav li a i {
+    margin-right: 2px;
+    transition-duration: 0.12s;
+}
+
+.quickly__nav li a:hover {
+    color: #000;
+    padding-top: 4px;
+    border-bottom: 4px solid #000;
+}
+
+.quickly__nav li a:hover i {
+    transition-duration: 0.12s;
+    color: #ffc0cb;
+}
